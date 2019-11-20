@@ -1,0 +1,21 @@
+
+server:
+  port: 8090
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    host: 192.168.19.215
+  rabbitmq:
+    host: 192.168.19.215
+    virtual-host: /erdong
+    username: erdong
+    password: erdong
+auth:
+  jwt:
+    publicKeyPath: D:\Idea_Workspace_my_gmall\gmall-0615\tmp\\rsa.pub
+    cookieName: GMALL_TOKEN
+    userKeyName: USER_KEY
+    expire: 2592000
