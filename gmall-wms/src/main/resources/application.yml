@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.atguigu: debug
+spring:
+  rabbitmq:
+    host: 192.168.19.215
+    virtual-host: /erdong
+    username: erdong
+    password: erdong
